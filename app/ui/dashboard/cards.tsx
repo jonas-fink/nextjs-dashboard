@@ -21,6 +21,7 @@ export default async function CardWrapper() {
         totalPaidInvoices,
         totalPendingInvoices,
     } = await fetchCardData();
+
     return (
         <>
             <Card
